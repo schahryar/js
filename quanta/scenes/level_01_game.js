@@ -189,14 +189,11 @@ hitBombs(player_lvl_1,bombs) {
     if ( this.isDead ) {
     console.log("player_lvl_1 is dead!!!")
 	this.scene.stop("level_01_game");
+ 
+    // Reset counter before a restart
+    this.isDead = false;
+    this.lifeCount = 5;
     this.scene.start("gameover");
-    // delay 1 sec
-    this.time.delayedCall(2000,function() {
-        // Reset counter before a restart
-        this.isDead = false;
-        this.lifeCount = 5;
-        this.scene.restart();
-    },[], this);
     }
 }
 
