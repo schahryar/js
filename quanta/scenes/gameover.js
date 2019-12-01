@@ -28,7 +28,6 @@ class gameover extends Phaser.Scene {
         }, this );
 		
 		
-		
 		var key1 = this.input.keyboard.addKey(49);
 		var key2 = this.input.keyboard.addKey(50);
 		var key3 = this.input.keyboard.addKey(51);

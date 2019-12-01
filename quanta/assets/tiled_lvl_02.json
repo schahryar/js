@@ -44,15 +44,15 @@
                  "y":6184
                 }, 
                 {
-                 "height":164,
+                 "height":320,
                  "id":8,
                  "name":"endPoint",
                  "rotation":0,
                  "type":"",
                  "visible":true,
-                 "width":196,
-                 "x":320,
-                 "y":140
+                 "width":828,
+                 "x":0,
+                 "y":0
                 }],
          "opacity":1,
          "type":"objectgroup",

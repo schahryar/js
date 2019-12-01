@@ -20,16 +20,16 @@ class level_02_game extends Phaser.Scene {
     this.load.atlas('char_quantaship', 'assets/char_quantaship.png', 'assets/char_quantaship.json');
 
 
-	// bomb preload
+	// graphic assets
 	this.load.image('bomb', 'assets/bomb.png');
-
-	// preload audio
-	this.load.audio('engine', 'assets/quantaship_engine.mp3');
-	this.load.audio('boom', 'assets/boom.mp3');
-	this.load.audio('ost', 'assets/ost_space.mp3');
-
-	this.load.image('end', 'assets/end.png');
+	this.load.image('level_02_end', 'assets/level_02_end.png');
 	this.load.image('life', 'assets/life.png');
+
+	// sfx
+	this.load.audio('boom', 'assets/boom.mp3');
+	this.load.audio('music_level_1', 'assets/music_level_1.mp3');
+	this.load.audio('music_level_2', 'assets/music_level_2.mp3');
+	this.load.audio('music_level_3', 'assets/music_level_3.mp3');
     }
 
 
@@ -43,13 +43,12 @@ class level_02_game extends Phaser.Scene {
 		
 
 		// audio sound
-		this.boosterSnd = this.sound.add('engine');
-		this.explodeSnd = this.sound.add('engine');
-		this.ostSnd = this.sound.add('ost');
+		this.musicSnd_2 = this.sound.add('music_level_2');
 		this.boomSnd = this.sound.add('boom');
 
 		// play background sound
-		this.ostSnd.play();
+ 	 	this.musicSnd_2.play().loop;
+ 	 	this.musicSnd_2.loop = true;
 
         // load the map_lvl_2
         this.map_lvl_2 = this.make.tilemap({key:'map_lvl_2'});
@@ -64,13 +63,14 @@ class level_02_game extends Phaser.Scene {
     // Set starting and ending position using object names in tiles
     this.startPoint = this.map_lvl_2.findObject("ObjectLayer", obj => obj.name === "startPoint");
     this.endPoint = this.map_lvl_2.findObject("ObjectLayer", obj => obj.name === "endPoint");
+	this.endPoint.y = 160;
 
     // Make it global variable for troubleshooting
     window.startPoint = this.startPoint;
     window.endPoint = this.endPoint;
 
     // Place an image manually on the endPoint
-    this.add.image(this.endPoint.x, this.endPoint.y, 'end').setOrigin(0, 0);
+    this.add.image(this.endPoint.x, 0, 'level_02_end').setOrigin(0, 0);
 
     this.player_lvl_2 = this.physics.add.sprite(95, 168, 'char_quantaship');
 		
@@ -113,7 +113,8 @@ this.physics.world.bounds.width = this.space_layer.width;
 this.physics.world.bounds.height = this.space_layer.height;
 
 this.player_lvl_2.setCollideWorldBounds(true); // don't go out of the map_lvl_2
-
+window.player_lvl_2 = this.player_lvl_2;
+		
 // player_lvl_2 will collide with the level tiles
 this.physics.add.collider(this.space_layer, this.player_lvl_2);
 //this.physics.add.collider(platformLayer, player_lvl_2);
@@ -130,7 +131,7 @@ this.physics.add.collider(this.space_layer, this.player_lvl_2);
 
 
     // this text will show the score
-this.text = this.add.text(20, 570, '0', {
+this.text = this.add.text(20, 570, '', {
     fontSize:'20px',
     fill:'#ffffff'
     });
@@ -201,6 +202,7 @@ hitBombs(player_lvl_2,bombs) {
     // Reset counter before a restart
     this.isDead = false;
     this.lifeCount = 5;
+	this.musicSnd_2.stop();
     this.scene.start("gameover");
     }
 }
@@ -282,8 +284,9 @@ hitBombs(player_lvl_2,bombs) {
     let distX = this.endPoint.x - this.player_lvl_2.x;
     let distY = this.endPoint.y - this.player_lvl_2.y;
     // Check for reaching endPoint object
-    if ( this.player_lvl_2.x >= this.endPoint.x && this.player_lvl_2.y <= this.endPoint.y ) {
+    if ( this.player_lvl_2.y <= this.endPoint.y ) {
         console.log('Reached endPoint, loading next level');
+		this.musicSnd_2.stop();
         this.scene.stop("level_02_game");
         this.scene.start("level_02_cutscene_01");
     }

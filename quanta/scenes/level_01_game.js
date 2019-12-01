@@ -19,10 +19,16 @@ preload() {
     this.load.atlas('char_noah', 'assets/char_noah.png', 'assets/char_noah.json');
 		
 
-	// bomb preload
+	// graphic assets preload
 	this.load.image('bomb', 'assets/bomb.png');
-	this.load.audio('boom', 'assets/boom.mp3');
 	this.load.image('life', 'assets/life.png');
+	this.load.image('level_01_end', 'assets/level_01_end.png');
+
+	// sfx preload
+	this.load.audio('boom', 'assets/boom.mp3');
+	this.load.audio('music_level_1', 'assets/music_level_1.mp3');
+	this.load.audio('music_level_2', 'assets/music_level_2.mp3');
+	this.load.audio('music_level_3', 'assets/music_level_3.mp3');
 
     }
 
@@ -32,9 +38,12 @@ preload() {
 	// timer for drop bomb function
 	this.timedEvent = this.time.addEvent({ delay: 900, callback: this.dropBombs, callbackScope: this, loop: true });
 
-	 
+
 	 this.boomSnd = this.sound.add('boom');
-	
+	 this.musicSnd_1 = this.sound.add('music_level_1');
+
+ 	 this.musicSnd_1.play();
+ 	 this.musicSnd_1.loop = true;
 
         // load the map_lvl_1
         this.map_lvl_1 = this.make.tilemap({key:'map_lvl_1'});
@@ -55,9 +64,8 @@ preload() {
     window.endPoint = this.endPoint;
 
     // Place an image manually on the endPoint
-    this.add.image(this.endPoint.x, this.endPoint.y, 'end').setOrigin(0, 0);
+    this.add.image(this.endPoint.x, this.endPoint.y, 'level_01_end').setOrigin(0, 0);
 
-		 
 
     // create the player_lvl_1 sprite    
     this.player_lvl_1 = this.physics.add.sprite(70, 150, 'char_noah');
@@ -118,7 +126,7 @@ this.physics.add.collider(this.space_layer, this.player_lvl_1);
 
 
     // this text will show the score
-this.text = this.add.text(20, 570, '0', {
+this.text = this.add.text(20, 570, '', {
     fontSize:'20px',
     fill:'#ffffff'
     });
@@ -193,6 +201,7 @@ hitBombs(player_lvl_1,bombs) {
     // Reset counter before a restart
     this.isDead = false;
     this.lifeCount = 5;
+	this.musicSnd_1.stop();
     this.scene.start("gameover");
     }
 }
@@ -239,8 +248,9 @@ hitBombs(player_lvl_1,bombs) {
 	let distX = this.endPoint.x - this.player_lvl_1.x;
     let distY = this.endPoint.y - this.player_lvl_1.y;
     // Check for reaching endPoint object
-    if ( this.player_lvl_1.x >= this.endPoint.x && this.player_lvl_1.y <= this.endPoint.y ) {
+    if ( this.player_lvl_1.x >= this.endPoint.x+180) {
         console.log('Reached endPoint, loading next level');
+		this.musicSnd_1.stop();
         this.scene.stop("level_01_game");
         this.scene.start("level_01_cutscene_01");
     }

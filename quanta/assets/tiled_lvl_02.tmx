@@ -15,6 +15,6 @@
  </layer>
  <objectgroup id="25" name="ObjectLayer">
   <object id="6" name="startPoint" x="280" y="6184" width="248" height="176"/>
-  <object id="8" name="endPoint" x="320" y="140" width="196" height="164"/>
+  <object id="8" name="endPoint" x="0" y="0" width="828" height="320"/>
  </objectgroup>
 </map>

@@ -19,11 +19,16 @@ preload() {
     this.load.atlas('char_alienship', 'assets/char_alienship.png', 'assets/char_alienship.json');
 		
 
-	// bomb preload
+	// graphic assets
 	this.load.image('bomb', 'assets/bomb.png');
-	this.load.audio('boom', 'assets/boom.mp3');
 	this.load.image('life', 'assets/life.png');
+	this.load.image('level_03_end', 'assets/level_03_end.png');
 
+	// sfx
+	this.load.audio('boom', 'assets/boom.mp3');
+	this.load.audio('music_level_1', 'assets/music_level_1.mp3');
+	this.load.audio('music_level_2', 'assets/music_level_2.mp3');
+	this.load.audio('music_level_3', 'assets/music_level_3.mp3');
     }
 
 
@@ -34,7 +39,13 @@ preload() {
 	this.timedEvent = this.time.addEvent({ delay: 900, callback: this.dropBombs, callbackScope: this, loop: true });
 		 
  
-	this.boomSnd = this.sound.add('boom');
+		// audio sound
+		this.musicSnd_3 = this.sound.add('music_level_3');
+		this.boomSnd = this.sound.add('boom');
+
+		// play background sound
+ 	 	this.musicSnd_3.play().loop;
+ 	 	this.musicSnd_3.loop = true;
 	
 
         // load the map_lvl_3
@@ -56,7 +67,7 @@ preload() {
     window.endPoint = this.endPoint;
 
     // Place an image manually on the endPoint
-    this.add.image(this.endPoint.x, this.endPoint.y, 'end').setOrigin(0, 0);
+    this.add.image(this.endPoint.x, this.endPoint.y, 'level_03_end').setOrigin(0, 0);
 
 		 
 
@@ -129,7 +140,7 @@ this.physics.add.collider(this.space_layer, this.player_lvl_3);
 
 
     // this text will show the score
-this.text = this.add.text(20, 570, '0', {
+this.text = this.add.text(20, 570, '', {
     fontSize:'20px',
     fill:'#ffffff'
     });
@@ -205,6 +216,7 @@ hitBombs(player_lvl_3,bombs) {
     // Reset counter before a restart
     this.isDead = false;
     this.lifeCount = 5;
+	this.musicSnd_3.stop();
     this.scene.start("gameover");
     }
 }
@@ -249,8 +261,9 @@ hitBombs(player_lvl_3,bombs) {
 	let distX = this.endPoint.x - this.player_lvl_3.x;
     let distY = this.endPoint.y - this.player_lvl_3.y;
     // Check for reaching endPoint object
-    if ( this.player_lvl_3.x >= this.endPoint.x && this.player_lvl_3.y <= this.endPoint.y ) {
+    if ( this.player_lvl_3.x >= this.endPoint.x+180) {
         console.log('Reached endPoint, loading next level');
+		this.musicSnd_3.stop();
         this.scene.stop("level_03_game");
         this.scene.start("level_03_cutscene_01");
     }

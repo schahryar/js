@@ -11,6 +11,10 @@ class level_01_cutscene_02 extends Phaser.Scene {
     }
 
     create () {
+		
+	 this.musicSnd_1 = this.sound.add('music_level_1');
+ 	 this.musicSnd_1.stop();
+
 
         this.add.image(0, 0, 'level_01_cutscene_02').setOrigin(0, 0);
 
