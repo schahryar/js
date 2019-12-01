@@ -6,7 +6,16 @@ class intro_01 extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image('intro_01','assets/intro_01.jpg');
+	// gfx
+    this.load.image('intro_01','assets/intro_01.jpg');
+    this.load.image('intro_02','assets/intro_01.jpg');
+    this.load.image('intro_03','assets/intro_01.jpg');
+
+	// sfx
+	this.load.audio('boom', 'assets/boom.mp3');
+	this.load.audio('music_level_1', 'assets/music_level_1.mp3');
+	this.load.audio('music_level_2', 'assets/music_level_2.mp3');
+	this.load.audio('music_level_3', 'assets/music_level_3.mp3');
 
     }
 
@@ -26,9 +35,7 @@ class intro_01 extends Phaser.Scene {
         this.scene.stop("intro_01");
         this.scene.start("intro_02");
         }, this );
-		
-		
-		
+
 		
 		var key1 = this.input.keyboard.addKey(49);
 		var key2 = this.input.keyboard.addKey(50);
