@@ -8,8 +8,8 @@ class intro_01 extends Phaser.Scene {
     preload() {
 	// gfx
     this.load.image('intro_01','assets/intro_01.jpg');
-    this.load.image('intro_02','assets/intro_01.jpg');
-    this.load.image('intro_03','assets/intro_01.jpg');
+    this.load.image('intro_02','assets/intro_02.jpg');
+    this.load.image('intro_03','assets/intro_03.jpg');
 
 	// sfx
 	this.load.audio('boom', 'assets/boom.mp3');
