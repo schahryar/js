@@ -1,0 +1,9 @@
+{
+	"MobilePointers" : 1,
+	"AntiAlias" : false,
+	"DesiredFPS" : 60,
+	"SaveID" : "RacerGobletGames",
+	"Orientation" : "Both",
+    "Layers": ["TotalTop", "Gui", "Particles", "PlayerCar", "Cars", "SideRoad", "Road", "Background" ],
+    "StartupState": "raceBoot" 
+}

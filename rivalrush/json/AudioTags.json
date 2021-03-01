@@ -1,0 +1,61 @@
+{
+    "AudioTags": [
+        {
+            "Tag": "CarBump",
+            "AudioNames": [ "CarBump0", "CarBump1", "CarBump2" ]
+        },
+        {
+            "Tag": "CarExplode",
+            "AudioNames": [ "CarExplode0" ]
+        },
+        {
+            "Tag": "CarPass",
+            "AudioNames": [ "CarPass0", "CarPass1", "CarPass2", "CarPass3" ]
+        },
+
+        {
+            "Tag": "CarRev",
+            "AudioNames": [ "CarRev0" ]
+        },
+        {
+            "Tag": "CarRevShort",
+            "AudioNames": [ "CarRevShort0" ]
+        },
+        {
+            "Tag": "CarVictoryPass",
+            "AudioNames": [ "CarVictoryPass0" ]
+        },
+        {
+            "Tag": "RaceVictoryTuneLevelComplete",
+            "AudioNames": [ "RaceVictoryTuneLevelComplete0" ]
+        },
+        {
+            "Tag": "RaceDefeatLevelGameOver",
+            "AudioNames": [ "RaceDefeatLevelGameOver0" ]
+        },
+        {
+            "Tag": "RaceGameplayMusic",
+            "AudioNames": [ "RaceGameplayMusic0" ]
+        },
+        {
+            "Tag": "RaceTitleMusic",
+            "AudioNames": [ "RaceTitleMusic0" ]
+        },
+        {
+            "Tag": "TimerTickRespawnGo",
+            "AudioNames": [ "TimerTickRespawnGo0" ]
+        },
+        {
+            "Tag": "TrafficChangeTrack",
+            "AudioNames": [ "TrafficChangeTrack0", "TrafficChangeTrack1", "TrafficChangeTrack2" ]
+        },
+        {
+            "Tag": "ConfettieExplosion",
+            "AudioNames": [ "ConfettiPop0" ]
+        },
+        {
+            "Tag": "WinStar",
+            "AudioNames": [ "WinScreenStar0" ]
+        }
+    ]
+}
