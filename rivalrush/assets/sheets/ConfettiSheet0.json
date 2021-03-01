@@ -1,0 +1,68 @@
+{"frames": [
+
+{
+	"filename": "Confetti0",
+	"frame": {"x":0,"y":0,"w":12,"h":47},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":12,"h":47},
+	"sourceSize": {"w":12,"h":47}
+},
+{
+	"filename": "Confetti1",
+	"frame": {"x":0,"y":47,"w":12,"h":47},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":12,"h":47},
+	"sourceSize": {"w":12,"h":47}
+},
+{
+	"filename": "Confetti2",
+	"frame": {"x":12,"y":0,"w":12,"h":47},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":12,"h":47},
+	"sourceSize": {"w":12,"h":47}
+},
+{
+	"filename": "Confetti3",
+	"frame": {"x":24,"y":0,"w":12,"h":47},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":12,"h":47},
+	"sourceSize": {"w":12,"h":47}
+},
+{
+	"filename": "Confetti4",
+	"frame": {"x":36,"y":0,"w":12,"h":47},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":12,"h":47},
+	"sourceSize": {"w":12,"h":47}
+},
+{
+	"filename": "Confetti5",
+	"frame": {"x":48,"y":0,"w":12,"h":47},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":12,"h":47},
+	"sourceSize": {"w":12,"h":47}
+},
+{
+	"filename": "Confetti6",
+	"frame": {"x":12,"y":47,"w":12,"h":47},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":12,"h":47},
+	"sourceSize": {"w":12,"h":47}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "ConfettiSheet0.png",
+	"format": "RGBA4444",
+	"size": {"w":64,"h":128},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:f1cbae046e92913b6489ea2a890d2250:2a5bfd7edf38a112353530218a69d1d8:22d2c46c6dc7be6a9ddc195d7a06f12b$"
+}
+}

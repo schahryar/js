@@ -1,0 +1,108 @@
+{"frames": [
+
+{
+	"filename": "BridgeRoadLeft0",
+	"frame": {"x":0,"y":0,"w":120,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":512},
+	"sourceSize": {"w":120,"h":512}
+},
+{
+	"filename": "BridgeRoadLeft1",
+	"frame": {"x":0,"y":512,"w":120,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":512},
+	"sourceSize": {"w":120,"h":512}
+},
+{
+	"filename": "BridgeRoadRight0",
+	"frame": {"x":120,"y":0,"w":120,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":512},
+	"sourceSize": {"w":120,"h":512}
+},
+{
+	"filename": "BridgeRoadRight1",
+	"frame": {"x":120,"y":512,"w":120,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":512},
+	"sourceSize": {"w":120,"h":512}
+},
+{
+	"filename": "RockRoadLeft0",
+	"frame": {"x":240,"y":0,"w":120,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":512},
+	"sourceSize": {"w":120,"h":512}
+},
+{
+	"filename": "RockRoadLeft1",
+	"frame": {"x":240,"y":512,"w":120,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":512},
+	"sourceSize": {"w":120,"h":512}
+},
+{
+	"filename": "RockRoadRight0",
+	"frame": {"x":360,"y":0,"w":120,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":512},
+	"sourceSize": {"w":120,"h":512}
+},
+{
+	"filename": "RockRoadRight1",
+	"frame": {"x":360,"y":512,"w":120,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":512},
+	"sourceSize": {"w":120,"h":512}
+},
+{
+	"filename": "SnowRoadLeft0",
+	"frame": {"x":480,"y":0,"w":120,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":512},
+	"sourceSize": {"w":120,"h":512}
+},
+{
+	"filename": "SnowRoadLeft1",
+	"frame": {"x":480,"y":512,"w":120,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":512},
+	"sourceSize": {"w":120,"h":512}
+},
+{
+	"filename": "SnowRoadRight0",
+	"frame": {"x":600,"y":0,"w":120,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":512},
+	"sourceSize": {"w":120,"h":512}
+},
+{
+	"filename": "SnowRoadRight1",
+	"frame": {"x":600,"y":512,"w":120,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":512},
+	"sourceSize": {"w":120,"h":512}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "RoadSheet1.png",
+	"format": "RGBA4444",
+	"size": {"w":1024,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:187922b9386e05be5e181949bf78ee6a:4248a47708befccfc751c7ad9dc4dad4:06603756d692b5d607f121f3c1207b81$"
+}
+}

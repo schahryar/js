@@ -1,0 +1,364 @@
+{"frames": [
+
+{
+	"filename": "HeartBreakAnimation_000",
+	"frame": {"x":184,"y":0,"w":70,"h":61},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":0,"w":70,"h":61},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_001",
+	"frame": {"x":0,"y":180,"w":80,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":0,"w":80,"h":60},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_002",
+	"frame": {"x":87,"y":120,"w":84,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":0,"w":84,"h":60},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_003",
+	"frame": {"x":90,"y":60,"w":88,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":0,"w":88,"h":60},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_004",
+	"frame": {"x":0,"y":60,"w":90,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":90,"h":60},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_005",
+	"frame": {"x":0,"y":0,"w":92,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":92,"h":60},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_006",
+	"frame": {"x":92,"y":0,"w":92,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":92,"h":60},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_007",
+	"frame": {"x":0,"y":120,"w":87,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":0,"w":87,"h":60},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_008",
+	"frame": {"x":171,"y":120,"w":82,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":0,"w":82,"h":60},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_009",
+	"frame": {"x":80,"y":180,"w":80,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":0,"w":80,"h":60},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_010",
+	"frame": {"x":160,"y":180,"w":80,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":0,"w":80,"h":60},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_011",
+	"frame": {"x":160,"y":180,"w":80,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":0,"w":80,"h":60},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_012",
+	"frame": {"x":160,"y":180,"w":80,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":0,"w":80,"h":60},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_013",
+	"frame": {"x":160,"y":180,"w":80,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":0,"w":80,"h":60},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_014",
+	"frame": {"x":160,"y":180,"w":80,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":0,"w":80,"h":60},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_015",
+	"frame": {"x":160,"y":180,"w":80,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":0,"w":80,"h":60},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_016",
+	"frame": {"x":160,"y":180,"w":80,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":0,"w":80,"h":60},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_017",
+	"frame": {"x":160,"y":180,"w":80,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":0,"w":80,"h":60},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_018",
+	"frame": {"x":160,"y":180,"w":80,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":0,"w":80,"h":60},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_019",
+	"frame": {"x":160,"y":180,"w":80,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":0,"w":80,"h":60},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_020",
+	"frame": {"x":160,"y":180,"w":80,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":0,"w":80,"h":60},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_021",
+	"frame": {"x":160,"y":180,"w":80,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":0,"w":80,"h":60},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_022",
+	"frame": {"x":160,"y":180,"w":80,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":0,"w":80,"h":60},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_023",
+	"frame": {"x":160,"y":180,"w":80,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":0,"w":80,"h":60},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_024",
+	"frame": {"x":160,"y":180,"w":80,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":0,"w":80,"h":60},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_025",
+	"frame": {"x":160,"y":180,"w":80,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":0,"w":80,"h":60},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_026",
+	"frame": {"x":160,"y":180,"w":80,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":0,"w":80,"h":60},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_027",
+	"frame": {"x":160,"y":180,"w":80,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":0,"w":80,"h":60},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_028",
+	"frame": {"x":160,"y":180,"w":80,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":0,"w":80,"h":60},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_029",
+	"frame": {"x":0,"y":240,"w":80,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":0,"w":80,"h":60},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_030",
+	"frame": {"x":80,"y":240,"w":80,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":0,"w":80,"h":60},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_031",
+	"frame": {"x":160,"y":240,"w":80,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":0,"w":80,"h":60},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_032",
+	"frame": {"x":0,"y":300,"w":80,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":0,"w":80,"h":60},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_033",
+	"frame": {"x":0,"y":360,"w":80,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":0,"w":80,"h":60},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_034",
+	"frame": {"x":0,"y":420,"w":80,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":0,"w":80,"h":60},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_035",
+	"frame": {"x":181,"y":61,"w":41,"h":59},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":1,"w":41,"h":59},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_036",
+	"frame": {"x":80,"y":300,"w":41,"h":59},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":1,"w":41,"h":59},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_037",
+	"frame": {"x":80,"y":359,"w":41,"h":59},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":1,"w":41,"h":59},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_038",
+	"frame": {"x":80,"y":418,"w":41,"h":59},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":1,"w":41,"h":59},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_039",
+	"frame": {"x":121,"y":300,"w":41,"h":59},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":1,"w":41,"h":59},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_040",
+	"frame": {"x":162,"y":300,"w":41,"h":59},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":1,"w":41,"h":59},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_041",
+	"frame": {"x":203,"y":300,"w":41,"h":59},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":1,"w":41,"h":59},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_042",
+	"frame": {"x":121,"y":359,"w":41,"h":59},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":6,"y":1,"w":41,"h":59},
+	"sourceSize": {"w":92,"h":61}
+},
+{
+	"filename": "HeartBreakAnimation_043",
+	"frame": {"x":178,"y":60,"w":3,"h":3},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":92,"h":61}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "DamageHeart0.png",
+	"format": "RGBA4444",
+	"size": {"w":256,"h":512},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:79241ff5579d8ec55b2ebd0f92dfa52c:b0f0c9bcc393d5b0be772476ff4eddec:04df5c915ef85ecb65e6fa5ad68ff1f9$"
+}
+}

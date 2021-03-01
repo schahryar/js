@@ -1,0 +1,140 @@
+{"frames": [
+
+{
+	"filename": "CityRoadLeft0",
+	"frame": {"x":0,"y":0,"w":120,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":512},
+	"sourceSize": {"w":120,"h":512}
+},
+{
+	"filename": "CityRoadLeft1",
+	"frame": {"x":0,"y":512,"w":120,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":512},
+	"sourceSize": {"w":120,"h":512}
+},
+{
+	"filename": "CityRoadRight0",
+	"frame": {"x":120,"y":0,"w":120,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":512},
+	"sourceSize": {"w":120,"h":512}
+},
+{
+	"filename": "CityRoadRight1",
+	"frame": {"x":120,"y":512,"w":120,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":512},
+	"sourceSize": {"w":120,"h":512}
+},
+{
+	"filename": "DesertRoadLeft0",
+	"frame": {"x":240,"y":0,"w":120,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":512},
+	"sourceSize": {"w":120,"h":512}
+},
+{
+	"filename": "DesertRoadLeft1",
+	"frame": {"x":240,"y":512,"w":120,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":512},
+	"sourceSize": {"w":120,"h":512}
+},
+{
+	"filename": "DesertRoadRight0",
+	"frame": {"x":360,"y":0,"w":120,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":512},
+	"sourceSize": {"w":120,"h":512}
+},
+{
+	"filename": "DesertRoadRight1",
+	"frame": {"x":360,"y":512,"w":120,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":512},
+	"sourceSize": {"w":120,"h":512}
+},
+{
+	"filename": "GrassRoadLeft0",
+	"frame": {"x":480,"y":0,"w":120,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":512},
+	"sourceSize": {"w":120,"h":512}
+},
+{
+	"filename": "GrassRoadLeft1",
+	"frame": {"x":480,"y":512,"w":120,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":512},
+	"sourceSize": {"w":120,"h":512}
+},
+{
+	"filename": "GrassRoadRight0",
+	"frame": {"x":600,"y":0,"w":120,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":512},
+	"sourceSize": {"w":120,"h":512}
+},
+{
+	"filename": "GrassRoadRight1",
+	"frame": {"x":600,"y":512,"w":120,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":512},
+	"sourceSize": {"w":120,"h":512}
+},
+{
+	"filename": "RaceRoadLeft0",
+	"frame": {"x":720,"y":0,"w":120,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":512},
+	"sourceSize": {"w":120,"h":512}
+},
+{
+	"filename": "RaceRoadLeft1",
+	"frame": {"x":720,"y":512,"w":120,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":512},
+	"sourceSize": {"w":120,"h":512}
+},
+{
+	"filename": "RaceRoadRight0",
+	"frame": {"x":840,"y":0,"w":120,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":512},
+	"sourceSize": {"w":120,"h":512}
+},
+{
+	"filename": "RaceRoadRight1",
+	"frame": {"x":840,"y":512,"w":120,"h":512},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":512},
+	"sourceSize": {"w":120,"h":512}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "RoadSheet0.png",
+	"format": "RGBA4444",
+	"size": {"w":1024,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:be21baeed80ae5e08aa994e537afed60:b90978a94a38069664c44023e5e8081d:4e9c232ea1323be2bb47953220ececf9$"
+}
+}
